@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Nizam Portfolio</title>
+	<meta name="robots" content="noindex, nofollow" />	
+	<meta name="author" content="Nizam">
+	 <meta name="description" content="Simple Portfolio to showcase projects">
+    <meta name="keywords" content="Web Developer Portfolio, WordPress Developer, Ui Developer, Html Developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+     <a href="index.html" class="back_arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+	<div class="container">
+		<div class="hero text-center">
+			<h1 class="name"><strong>Area Served</strong></h1>
+			<span class="img_wrap"><img class="medium_img" src="images/area_worked.jpg"></span>
+		</div>
+	</div>
+
+	<!-- Achievements -->
+
+	<div class="container">
+		<h2 class="text-center lead"><strong>Client's Feedback</strong></h2>
+
+		<p class="text-center">More than <strong>500 +</strong> clients are happy</p>
+		<div class="testi_wrapper">
+			<div class="slider">
+				<img src="images/test2.jpg">
+			</div>
+			<div class="slider">
+				<img src="images/test8.jpg">
+			</div>
+			<div class="slider">
+				<img src="images/test4.jpg">
+			</div>
+			<div class="slider">
+				<img src="images/test8.jpg">
+			</div>
+			<div class="slider">
+				<img src="images/test6.jpg">
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+<script>
+	$('.testi_wrapper').slick({
+	  dots: false,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  autoplay:true,
+	  adaptiveHeight: true
+	});
+</script>
+</body>
+
+</html>
